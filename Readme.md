@@ -1,5 +1,5 @@
 ## General Description
-This is a university project for a 'Computer Graphics' course, in which the goal is to display representations of spaceships, both on 2D and 3D, making use of pyglet and OpenGL. Every object in the scene must be represented in a scene graph tree that contains their shape and transformations.
+This is a university project for a Computer Graphics course. The goal is to display representations of spaceships, both on 2D and 3D, making use of pyglet and OpenGL. Every object in the scene must be represented using a scene graph tree that contains their shape and transformations.
 
 ## Description of each program
 
@@ -28,7 +28,7 @@ Almost the same as 3D_1, but you can now record different positions of the ships
 
 Each time you press `R`, a new checkpoint is created. When you press `1`, the ships move along the path created by the checkpoints. If you press `V` you can toggle the visualization of the path created by the points recorded so far (if a point is recorded while visualization is on, you'll need to toggle it off and on to update the visualization with the new point).
 
-You can also change the perspective to a third person view using C.
+You can also change the perspective to a third person view using `C`.
 
 ![Spaceships3D2](screenshots/sc_3D_2.png)
 
